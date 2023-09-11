@@ -18,3 +18,8 @@ full path of the file in the repository.  Each slash is replaced by
 an underscore.  If you want to view the same file again, you will be
 asked if you want to overwrite the file in the temporary directory.
 
+## Surely magit can do this, right?
+
+Perhaps I didn't try hard enough, but I could get magit to list files
+in a bare repo.
+
