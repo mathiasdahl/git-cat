@@ -25,13 +25,32 @@ in a bare repo.
 
 ## See it in action
 
-Below I'm in the .git folder of this repository and I just activated `git-cat':
+Below I'm in the .git folder of this repository:
 
-![git-cat activated](git-cat-1.png "git-cat activated")
+![git folder](git-cat-5.png "In .git folder, git-cat activated")
+
+Activating `git-cat':
+
+![git folder activated git-cat](git-cat-4.png "In .git folder, git-cat activated")
 
 I decide to list all files that has a period in the file name (the
 input is sent to grep via a shell command and the period needs to be
 escaped twice):
 
-![added filter](git-cat-2.png "Added filter")
+![select file](git-cat-2.png "Select file from list")
+
+I now get a filtered list of all files in the repository and need to
+select one of the files:
+
+`git-cat' works very well with `ivy' and, I suspect with most
+completion frameworks.
+
+Since I opened this file before, I'm asked to overwrite it:
+
+![git-cat ask to overwrite](git-cat-1.png "Ask to overwrite")
+
+Finally, the file is shown:
+
+![file shown](git-cat-3.png "File shown")
+
 
