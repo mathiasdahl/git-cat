@@ -27,7 +27,7 @@ in a bare repo.
 
 Below I'm in the .git folder of this repository:
 
-![git folder](git-cat-5.png "In .git folder, git-cat activated")
+![git folder](git-cat-4.png "In .git folder, git-cat activated")
 
 Activating `git-cat':
 
@@ -51,6 +51,6 @@ Since I opened this file before, I'm asked to overwrite it:
 
 Finally, the file is shown:
 
-![file shown](git-cat-3.png "File shown")
+![file shown](git-cat-5.png "File shown")
 
 
