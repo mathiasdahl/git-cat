@@ -37,13 +37,12 @@ I decide to list all files that has a period in the file name (the
 input is sent to grep via a shell command and the period needs to be
 escaped twice):
 
-![select file](git-cat-2.png "Select file from list")
+![select file](git-cat-3.png "Select file from list")
 
 I now get a filtered list of all files in the repository and need to
 select one of the files:
 
-`git-cat' works very well with `ivy' and, I suspect with most
-completion frameworks.
+![select file](git-cat-2.png "Select file from list")
 
 Since I opened this file before, I'm asked to overwrite it:
 
@@ -52,5 +51,8 @@ Since I opened this file before, I'm asked to overwrite it:
 Finally, the file is shown:
 
 ![file shown](git-cat-5.png "File shown")
+
+`git-cat' works very well with `ivy' and, I suspect with most
+completion frameworks.
 
 
