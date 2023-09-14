@@ -29,13 +29,9 @@ Below I'm in the .git folder of this repository:
 
 ![git folder](git-cat-4.png "In .git folder, git-cat activated")
 
-Activating `git-cat':
-
-![git folder activated git-cat](git-cat-4.png "In .git folder, git-cat activated")
-
-I decide to list all files that has a period in the file name (the
-input is sent to grep via a shell command and the period needs to be
-escaped twice):
+Activating git-cat and I decide to list all files that has a period
+in the file name (the input is sent to grep via a shell command and
+the period needs to be escaped twice):
 
 ![select file](git-cat-3.png "Select file from list")
 
