@@ -23,8 +23,9 @@
 ;;; Commentary:
 
 ;; I have a number of bare git repositories to which I sync files from
-;; and to different computers.  Now and then I need to find a file
-;; when I'm inside a bare repository.  `git-cat' helps with that.
+;; and to different computers.  Now and then I need to find and view
+;; files when I'm inside a such a repository.  `git-cat' helps with
+;; that.
 
 ;; To use it, make sure you are in a bare git repository or inside a
 ;; .git directory, then type `M-x git-cat RET', enter a file name
@@ -38,7 +39,7 @@
 
 ;;; Todo:
 
-;; - Add support for git grep.
+;; - Add support for git grep. Maybe.
 
 ;;; Code:
 
