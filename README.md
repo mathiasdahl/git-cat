@@ -52,7 +52,7 @@ Finally, the file is shown:
 
 ![file shown](git-cat-5.png "File shown")
 
-`git-cat' works very well with `ivy' and, I suspect with most
-completion frameworks.
+git-cat works very well with ivy and, I suspect with most completion
+frameworks.
 
 
